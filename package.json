@@ -1,0 +1,12 @@
+{
+  "name": "associacao-amizade-do-bem",
+  "version": "1.0.0",
+  "description": "Testes automatizados do MVP da Associação Amizade do Bem",
+  "scripts": {
+    "test": "c8 --reporter=text --include=script.js node --test tests/testes.js"
+  },
+  "devDependencies": {
+    "c8": "^10.1.3",
+    "jsdom": "^26.1.0"
+  }
+}
