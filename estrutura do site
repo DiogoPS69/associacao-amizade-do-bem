@@ -1,1 +1,449 @@
-index.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Associação Amizade do Bem. Promovendo proteção social, educação, cultura e desenvolvimento de crianças e adolescentes em Gravataí, RS.">
+
+    <title>Associação Amizade do Bem | Transformando Vidas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">💚</span>
+                <span>
+                    <strong>Amizade do Bem</strong>
+                    <small>Associação</small>
+                </span>
+            </a>
+
+            <nav class="navigation" aria-label="Menu principal">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#acoes">Nossas ações</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#doacao" class="button button-primary">
+                Faça uma doação
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- TELA INICIAL -->
+    <main>
+
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <span class="tag">Juntos fazemos a diferença</span>
+
+                    <h1>
+                        Pequenas atitudes.
+                        <span>Grandes transformações.</span>
+                    </h1>
+
+                    <p>
+                        Trabalhamos para construir oportunidades,
+                        fortalecer vínculos e transformar a realidade
+                        de crianças e adolescentes por meio da educação,
+                        cultura e proteção social.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#doacao" class="button button-primary">
+                            Quero ajudar ❤️
+                        </a>
+
+                        <a href="#sobre" class="button button-secondary">
+                            Conheça nossa história
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SOBRE A ASSOCIAÇÃO -->
+        <section id="sobre" class="section about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">Quem somos</span>
+                    <h2>Uma associação que acredita no poder de transformar vidas</h2>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+                        <p>
+                            A Associação Amizade do Bem, localizada em
+                            Gravataí, no Rio Grande do Sul, tem como propósito
+                            promover a proteção social básica e o
+                            desenvolvimento integral de crianças e
+                            adolescentes em situação de vulnerabilidade.
+                        </p>
+
+                        <p>
+                            Por meio de atividades socioeducativas e
+                            culturais, buscamos fortalecer vínculos
+                            familiares e comunitários, ampliar oportunidades
+                            e contribuir para a garantia de direitos.
+                        </p>
+
+                        <a href="#acoes" class="text-link">
+                            Conheça nossas ações →
+                        </a>
+                    </div>
+
+                    <div class="about-highlight">
+                        <span class="highlight-icon">🤝</span>
+                        <h3>Nosso propósito</h3>
+                        <p>
+                            Promover acolhimento, oportunidades,
+                            desenvolvimento e esperança.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- NOSSAS AÇÕES -->
+        <section id="acoes" class="section actions">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">O que fazemos</span>
+                    <h2>Nossas ações</h2>
+                    <p>
+                        Conheça algumas das áreas que fazem parte
+                        do nosso trabalho social.
+                    </p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <article class="action-card">
+                        <span class="card-icon">📚</span>
+                        <h3>Educação</h3>
+                        <p>
+                            Atividades socioeducativas que estimulam
+                            o aprendizado e o desenvolvimento.
+                        </p>
+                    </article>
+
+                    <article class="action-card">
+                        <span class="card-icon">🎨</span>
+                        <h3>Cultura</h3>
+                        <p>
+                            Experiências culturais que incentivam
+                            a criatividade e a expressão.
+                        </p>
+                    </article>
+
+                    <article class="action-card">
+                        <span class="card-icon">❤️</span>
+                        <h3>Proteção social</h3>
+                        <p>
+                            Fortalecimento de vínculos e promoção
+                            de direitos para crianças e adolescentes.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- EVENTOS -->
+        <section id="eventos" class="section events">
+            <div class="container events-content">
+
+                <div>
+                    <span class="tag">Nossa comunidade</span>
+                    <h2>Juntos construímos um futuro melhor</h2>
+                    <p>
+                        A participação da comunidade é fundamental
+                        para fortalecer nossas iniciativas e ampliar
+                        o alcance das ações sociais.
+                    </p>
+                </div>
+
+                <a href="#contato" class="button button-primary">
+                    Entre em contato
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- CHAMADA PARA DOAÇÃO -->
+        <section class="donation-banner">
+            <div class="container donation-banner-content">
+
+                <div>
+                    <span class="tag">Faça parte dessa transformação</span>
+                    <h2>Sua contribuição pode fazer a diferença!</h2>
+                    <p>
+                        Cada gesto de solidariedade ajuda a construir
+                        novas oportunidades.
+                    </p>
+                </div>
+
+                <a href="#doacao" class="button button-light">
+                    Quero contribuir ❤️
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- TELA DE DOAÇÃO -->
+        <section id="doacao" class="section donation-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">Ajude nossa causa</span>
+                    <h2>Faça sua doação</h2>
+                    <p>
+                        Escolha um valor e uma forma de contribuição.
+                        Sua participação é muito importante!
+                    </p>
+                </div>
+
+                <form id="donation-form" class="donation-form">
+
+                    <h3>1. Escolha o valor da contribuição</h3>
+
+                    <div class="donation-values">
+
+                        <label class="value-option">
+                            <input type="radio" name="valor" value="20" required>
+                            <span>R$ 20</span>
+                        </label>
+
+                        <label class="value-option">
+                            <input type="radio" name="valor" value="50">
+                            <span>R$ 50</span>
+                        </label>
+
+                        <label class="value-option">
+                            <input type="radio" name="valor" value="100">
+                            <span>R$ 100</span>
+                        </label>
+
+                        <label class="value-option">
+                            <input type="radio" name="valor" value="200">
+                            <span>R$ 200</span>
+                        </label>
+
+                    </div>
+
+                    <h3>2. Seus dados</h3>
+
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <h3>3. Forma de pagamento</h3>
+
+                    <div class="payment-options">
+
+                        <label class="payment-option">
+                            <input type="radio" name="pagamento" value="Pix" required>
+                            <span>📱 Pix</span>
+                        </label>
+
+                        <label class="payment-option">
+                            <input type="radio" name="pagamento" value="Cartão">
+                            <span>💳 Cartão</span>
+                        </label>
+
+                        <label class="payment-option">
+                            <input type="radio" name="pagamento" value="Boleto">
+                            <span>📄 Boleto</span>
+                        </label>
+
+                    </div>
+
+                    <button type="submit" class="button button-primary button-full">
+                        Continuar para confirmação
+                    </button>
+
+                    <p class="demo-notice">
+                        Ambiente demonstrativo: nenhuma cobrança ou
+                        transação financeira real será realizada.
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- TELA DE CONFIRMAÇÃO -->
+        <section id="confirmacao" class="section confirmation-section" hidden>
+
+            <div class="container confirmation-card">
+
+                <div class="confirmation-icon">💚</div>
+
+                <h2>Obrigado por fazer parte dessa transformação!</h2>
+
+                <p id="confirmation-message">
+                    Sua contribuição foi registrada na demonstração.
+                </p>
+
+                <div class="donation-summary">
+
+                    <h3>Resumo da contribuição</h3>
+
+                    <p>
+                        <strong>Nome:</strong>
+                        <span id="resumo-nome"></span>
+                    </p>
+
+                    <p>
+                        <strong>E-mail:</strong>
+                        <span id="resumo-email"></span>
+                    </p>
+
+                    <p>
+                        <strong>Valor:</strong>
+                        <span id="resumo-valor"></span>
+                    </p>
+
+                    <p>
+                        <strong>Pagamento:</strong>
+                        <span id="resumo-pagamento"></span>
+                    </p>
+
+                    <p>
+                        <strong>Data:</strong>
+                        <span id="resumo-data"></span>
+                    </p>
+
+                </div>
+
+                <p class="demo-notice">
+                    Esta é uma confirmação fictícia para fins de
+                    demonstração do MVP. Nenhum pagamento foi realizado.
+                </p>
+
+                <a href="#inicio" id="back-home" class="button button-primary">
+                    Voltar ao início
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section id="contato" class="section contact">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">Fale conosco</span>
+                    <h2>Entre em contato</h2>
+                    <p>
+                        Quer conhecer melhor nosso trabalho ou
+                        participar das nossas iniciativas?
+                    </p>
+                </div>
+
+                <div class="contact-content">
+
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <div>
+                            <h3>Localização</h3>
+                            <p>Gravataí – Rio Grande do Sul</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>💚</span>
+                        <div>
+                            <h3>Faça parte</h3>
+                            <p>
+                                Sua participação pode ajudar a
+                                transformar muitas histórias.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>💚 Associação Amizade do Bem</h3>
+                <p>
+                    Juntos por uma sociedade com mais oportunidades,
+                    acolhimento e solidariedade.
+                </p>
+            </div>
+
+            <div>
+                <p>Gravataí – RS</p>
+                <p>© 2026 Associação Amizade do Bem</p>
+                <p>Projeto demonstrativo — MVP</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
