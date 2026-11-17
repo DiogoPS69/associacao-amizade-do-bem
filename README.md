@@ -31,3 +31,14 @@ associacao-amizade-do-bem/
 ├── style.css
 ├── script.js
 └── README.md
+## Revisão técnica
+
+O projeto passou por uma auto-revisão técnica com foco em:
+
+- Organização e separação dos arquivos HTML, CSS e JavaScript.
+- Legibilidade e organização do código.
+- Validação dos campos do formulário de doações.
+- Adaptação do layout para dispositivos móveis.
+- Verificação das interações e mensagens de confirmação.
+
+Esta revisão busca melhorar a organização, a usabilidade e a manutenção do MVP.
